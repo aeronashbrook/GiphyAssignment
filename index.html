@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Gif Generator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+ <body>
+    <div class="jumbotron" >
+        <h1 class="text-center">Gif Generator</h1>
+        <form id="gifForm" class="text-center">
+            <label for="gifInput">Add a person</label>
+            <input type="text" id="gifInput">
+            <input id="addGif" type="submit" value="Submit">
+        </form>
+
+    </div>
+    <div id="buttonDiv">
+        <button data-person="Nicholas Cage">Nicholas Cage</button>
+        <button data-person="Gloria Borger">Gloria Borger</button>
+        <button data-person="Stefon Diggs">Stefon Diggs</button>
+        <button data-person="Conor McGregor">Conor McGregor</button>
+        <button data-person="Lebron James">Lebron James</button>
+        <button data-person="Kanye West">Kanye West</button>
+        <button data-person="Odell Beckham Jr">Odell Beckham Jr</button>
+    </div>
+    <div id="gifDiv"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/script.js"></script>
+ </body>
+</html>

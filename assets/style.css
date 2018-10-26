@@ -1,0 +1,31 @@
+h1 {
+margin-bottom: 60px;
+}
+
+#gifInput {
+ padding-right: 20px;
+ margin-right: 10px;
+ margin-left: 10px;
+}
+
+#addgif {
+    margin-left: 10px;
+}
+#gifForm {
+    
+}
+button {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 160px;
+}
+#buttonDiv {
+    width: 80%;
+    margin: auto;
+}
+
+#gifDiv {
+    width: 80%;
+    margin: auto;
+}
