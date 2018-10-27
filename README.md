@@ -1,1 +1,2 @@
 # GiphyAssignment
+In this assignment, I created a gif generator that produces ten different gifs when a button is clicked. The user can add buttons to generate their own gifs with an added form. The gifs are paused until clicked, then they play normally. 
